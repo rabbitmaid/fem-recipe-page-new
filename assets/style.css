@@ -42,4 +42,75 @@
 }
 
 
+body{
+    font-size: var(--font-base);
+    font-weight: var(--font-normal);
+    font-family: "Outfit", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: var(--font-medium);
+}
+
+p, li {
+    color: var(--stone600);
+}
+
+main {
+}
+section {
+    background-color: var(--white);
+}
+
+section > img {
+    width: 100%;
+}
+
+section > .introduction {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    color: var(--stone900);
+}
+
+section > .introduction > p {
+    line-height: 25px;
+}
+
+section > .prep_time {
+    background-color: var(--rose50);
+    margin: 20px 40px;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+section > .prep_time > h3 {
+    color: var(--rose800);
+    margin-bottom: 10px;
+}
+
+section > .prep_time > ul {
+    margin-left: 20px;
+}
+
+section > .prep_time > ul > li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+section > .prep_time > ul > li::marker {
+    color: var(--rose800);
+}
+
+section > .ingredients {
+    padding: 30px;
+}
+
+
+
 
